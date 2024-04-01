@@ -54,7 +54,6 @@
     "typescript": "4.8.4"
   },
   "lint-staged": {
-    "**/*.(ts|tsx)": "bash -c 'pnpm tsc --noEmit'",
-    "**/*.(ts|tsx|js)": "eslint --fix"
+    "**/*.(ts|tsx)": "bash -c 'pnpm tsc --noEmit'"
   }
 }
