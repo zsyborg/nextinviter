@@ -13,7 +13,19 @@
     --telegram-secondary-bg-color: var(--tg-theme-secondary-bg-color, #f4f4f5);
   }
 
-  html {
+  /* html {
     @apply font-sans;
-  }
+  } */
+}
+
+body{
+  background-image: url('../../public/tgback.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tgback{
+  background-image: url('../../public/tgback.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
